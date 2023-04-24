@@ -1,0 +1,19 @@
+- cd to chenge direction
+- mkdir make new directoru
+- dir list files in current directory
+- git --version
+- git config user.name
+- for secure to don't anyone know your user name run this git cmd
+" git config --global user.name "Secret name" "
+- same last when git config user.email
+-git status 
+-git add. then git commit -m "Text" then git push or sync
+-git log or git log --oneline to get history clear
+-git restore like ctrl+z from last commit for files 
+-git restore --source HEAD~2 (number for ex) filename
+-git restore --staged filename
+-git reset "codecommiut" --hard => remove commit and changes the file
+-git revert => for history commit .. you can add commit then using revert to return to main commit
+-To add repo using git cmd 
+git init => git add . => git commit => git remote add origin https://[email protected]/your_username/your_repository.git 
+=> git push -u -f origin master
